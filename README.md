@@ -1,37 +1,98 @@
-# JupyterLite Demo
+# STEM Data Visualization and Du Boisian Methods
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+<div>
+<img src="https://github.com/carpentries-incubator/R-Data-Viz-with-Du-Bois/blob/main/episodes/files/du-bois-title.png?raw=true"
+width="400" />
+</div>
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+This repository publishes data and Jupyter Notebooks for the **STEM Data Visualization 
+and Du Boisian Methods** learning modules. The lessons (we use the terms module 
+and lesson interchangeably) are designed for learning how 
+to create scientific data visualizations in in multiple programming languages.
+The modules use examples from charts created by Black social scientist W.E.B. 
+Du Bois and a diverse team of collaborators for the 1900 Paris World Expo.
 
-## ✨ Try it in your browser ✨
+## Why learn STEM data visualization with Du Bois?
 
-➡️ **https://jupyterlite.github.io/demo**
+The Du Bois team's visualizations were state of the art in 1900, using most of
+the major chart types still employed across the sciences and engineering today.
+The Du Bois charts provided some of the first widely accessible scientific 
+analyses to refute false, biologically based theories of racial inequality. For
+their innovative analyses, beauty, and historical importance, the original 
+hand drawn charts are preserved in the U.S. Library of Congress.
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+## Module Organization
 
-## Requirements
+The modules are published in separate "lesson language" websites for your programming language of
+choice. The websites were produced using the **Data Carpentries** workbench for
+open source Github lesson sites. You can navigate to our lesson sites here:
+* [STEM Data Visualization and Du Boisian Methods with R](https://carpentries-incubator.github.io/R-Data-Viz-with-Du-Bois/)
+* STEM Data Visualization and Du Boisian Methods with Python
+* STEM Data Visualization and Du Boisian Methods with Stata
+* STEM Data Visualization and Du Boisian Methods with Pen and Paper
 
-JupyterLite is being tested against modern web browsers:
+Each lesson language site is divided into separate **episodes**. Learners and instructors
+can select the the episodes that best suite their prior programming experience and
+learning objectives. All but the final episodes are designed for learners with little
+re no programming experience.
 
-- Firefox 90+
-- Chromium 89+
+The first episode of every lesson site starts with the social and scientific context
+in which Du Bois created the visualizations. The lesson then introduces
+key chart types for different kinds of data and visualization best practices. 
+Multiple episodes are then offered for using the lesson's language (R, Python, Stata) 
+for recreating or adapting selected Du Bois charts with modern data and STEM field related
+data. Chart recreation eplisodes include Du Bois bar graphs and statistical maps.
 
-## Deploy your JupyterLite website on GitHub Pages
+The lesson sites are designed so that instructors can teach the modules
+from the site. Learners can also use the sites to learn their content independently
+and asynchronously. For instructors, we find that the sites are pedagogically
+most effective when used as lecture notes and learning activity instructions. We do not
+recommend lecturing with a screen share of the lesson site or projection of the lesson site.
+This combination of text, activity prompts, and verbal narration tends to exceed effective
+cognitive loads for learners.
 
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
+Where appropriate, we instead provide images (like charts, diagrams, and photographs)
+that can be opened from the lesson site in separate browser tab for display. We also
+provide links to google slide files with all images for each episode. You can copy
+edit the google slide files suit your particular teaching practices.
 
-## Further Information and Updates
+## Learning Objectives
 
-For more info, keep an eye on the JupyterLite documentation:
+Episode specific learning objectives and questions are noted at the beginning of each
+episode. Overall learning objectives for entire modules are:
+* Understand the social and scientific context of visualizations as a process of
+scientific discovery (observation, hypothesis formation, data collection, analysis).
+* Practice creative and visual thinking as valuable methods for scientific
+discovery and communication.
+* Comprehend major chart types (pie bar, bar chart, line chart, statistical map)
+and their suitability for different levels of measurement and multivariate
+relationships.
+* Apply visualization best including accessible design and data story telling.
+* Create and modify a Du Bois chart using R to experience the value of coding
+to reproduce and adapt data visualizations in STEM.
 
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+## Coding Interactives
 
-This template provides the Pyodide kernel (`jupyterlite-pyodide-kernel`), the JavaScript kernel (`jupyterlite-javascript-kernel`), and the p5 kernel (`jupyterlite-p5-kernel`), along with other
-optional utilities and extensions to make the JupyterLite experience more enjoyable. See the
-[`requirements.txt` file](requirements.txt) for a list of all the dependencies provided.
+Our coding interactives with Jupyter Notebooks   can be accessed from the Du Bois
+Cloud using any web browser with no installation required.Links to the associated
+coding interactives are provided on each lesson site.  But you can also navigate 
+directly to them here:
+* [Literacy Bar Graph with R Notebook](http://dubois.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FHigherEdData%2FDu-Bois-STEM&urlpath=tree%2FDu-Bois-STEM%2Fr_literacy_dubois.ipynb&branch=main)
+  * [Video Tutorial](https://drive.google.com/file/d/1ld6zO3PAOv-2vvkHhK5Guq9O3TT4GnHN/view?usp=sharing)
+  * [Static version]()
+* [Literacy to Biodiversity with R Notebook](https://dubois.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FHigherEdData%2FDu-Bois-STEM&urlpath=tree%2FDu-Bois-STEM%2Fr_literacy_biodiversity_dubois.ipynb&branch=main)
+  * [Video Tutorial](https://drive.google.com/file/d/13gA01M3Vw0Y5udUOFjUnx8GI2ZDCXArh/view?usp=drive_web)
+  * [Static version]()
+* [Literacy Bar Graph with Python Notebook](http://dubois.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FHigherEdData%2FDu-Bois-STEM&urlpath=tree%2FDu-Bois-STEM%2Fpython_literacy_dubois.ipynb&branch=main)
+  * [Static version]()
+* [Black Population Map Python Notebook](http://dubois.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FHigherEdData%2FDu-Bois-STEM&urlpath=tree%2FDu-Bois-STEM%2Fnotebooks%2Fpython_popmap_dubois.ipynb&branch=main)
+  * [Static version]()
 
-For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
 
+## Our Team
 
+The **STEM Data Visualization and Du Boisian Methods** learning modules were created by
+a collaboration between STEM researchers and instructors at **University of California 
+Merced**, **Princeton**, and **Fisk University** where Du Bois earned his first 
+undergraduate degree. Development and testing of the modules is funded by the 
+**National Science Foundation**.
