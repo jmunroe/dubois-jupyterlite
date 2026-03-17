@@ -9,3 +9,5 @@ dependencies:
   - geopandas
   - mapclassify
   - xeus-r
+  - r-ggplot2
+
